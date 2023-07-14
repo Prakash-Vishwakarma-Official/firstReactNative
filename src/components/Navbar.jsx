@@ -12,7 +12,7 @@ import hamburger_icon from './../assets/img/hamburger_icon.png';
 import LoginSignupPopup from './LoginSignupPopup';
 
 const Navbar = () => {
-    const [sidebarToggle, setSidebarToggle] = useState(true);
+    const [sidebarToggle, setSidebarToggle] = useState(false);
     const NavbarboxRef = useRef(null);
 
     const handleToggle = () => {
